@@ -8,6 +8,8 @@ NanoMan is a lightweight, privacy-focused API testing tool. No cloud, no bloat, 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 
+![NanoMan Screenshot](nanoman.png)
+
 ## Features
 
 * **Offline First:** Works without internet connection for local APIs
