@@ -18,6 +18,23 @@ NanoMan is a lightweight, privacy-focused API testing tool. No cloud, no bloat, 
 * **Threaded Requests:** UI never freezes, even on slow connections
 * **Security Focused:** Strict URL validation (HTTP/HTTPS only)
 
+## Use Cases
+
+### Backend Development
+- Test your REST APIs during development
+- Verify endpoints before frontend integration
+- Debug API responses with pretty-printed JSON
+
+### Learning & Education
+- Explore public APIs without installing Postman
+- Perfect for coding bootcamps and tutorials
+- Understand HTTP methods and responses
+
+### API Debugging
+- Quick requests without browser DevTools
+- Save custom headers for authenticated endpoints
+- Test local development servers
+
 ## Requirements
 
 * Python 3.8+
@@ -69,6 +86,27 @@ NanoMan/
 | File access | `file://` URLs rejected |
 | Request hanging | 10 second timeout |
 | UI freeze | Threaded requests |
+
+## Troubleshooting
+
+### "Invalid or unsafe URL" error
+- Make sure URL starts with `http://` or `https://`
+- Check for typos in the URL
+- Ensure no spaces in the URL
+
+### Request times out
+- Check if the server is running
+- Try increasing timeout (edit `logic.py`, line 109)
+- Verify network connection
+
+### JSON not formatted
+- Response must have `Content-Type: application/json`
+- If plain text, it will display as-is
+
+### Connection refused
+- Server might not be running
+- Check port number is correct
+- Firewall might be blocking
 
 ## Running Tests
 

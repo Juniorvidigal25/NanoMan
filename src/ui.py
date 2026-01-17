@@ -93,7 +93,7 @@ class NanoManApp(ctk.CTk):
             font=("Consolas", 13)
         )
         self.entry_url.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
-        self.entry_url.insert(0, "https://jsonplaceholder.typicode.com/todos/1")
+        self.entry_url.insert(0, "https://chseets.com/api/meta.json")
         
         # Bind Enter key to send
         self.entry_url.bind("<Return>", lambda e: self.send_request_thread())
@@ -112,8 +112,8 @@ class NanoManApp(ctk.CTk):
         self.btn_send.grid(row=0, column=2, padx=10, pady=10)
         
         # 3. Tabview for Request/Response
-        self.tabview = ctk.CTkTabview(self)
-        self.tabview.grid(row=2, column=0, padx=20, pady=(0, 10), sticky="nsew")
+        self.tabview = ctk.CTkTabview(self, anchor="nw")
+        self.tabview.grid(row=2, column=0, padx=20, pady=(5, 10), sticky="nsew")
         
         # Create tabs
         self.tab_response = self.tabview.add("Response")
