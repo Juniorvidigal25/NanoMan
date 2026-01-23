@@ -15,27 +15,36 @@ from pathlib import Path
 
 from src.logic import validate_url, send_api_request, format_json, parse_headers
 
+# Import Nano Design System
+try:
+    from nano_theme import NANO_COLORS, NANO_FONTS, apply_nano_theme
+    apply_nano_theme()
+except ImportError:
+    # Fallback if nano_theme not available
+    import customtkinter as ctk
+    ctk.set_appearance_mode("Dark")
+    ctk.set_default_color_theme("blue")
+    NANO_COLORS = {}
+    NANO_FONTS = {}
+
 logger = logging.getLogger(__name__)
 
-# Nano Design System
-ctk.set_appearance_mode("Dark")
-ctk.set_default_color_theme("blue")
-
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 
 # Constants
 MAX_HIGHLIGHT_LINES = 1000  # Performance limit for syntax highlighting
 MAX_HISTORY_ITEMS = 100  # Max items to persist
 HISTORY_FILE = Path(__file__).parent.parent / "history.json"
 
-# Nano Design System Colors (consistent with NanoServer)
+# Nano Design System Colors (from nano_theme.py)
 COLORS = {
-    "success": "#4caf50",      # NanoServer green
-    "danger": "#e74c3c",       # Error red
-    "warning": "#e67e22",      # Warning orange
-    "neutral": "#34495e",      # Neutral gray
-    "primary": "#3498db",      # Blue primary
-    "muted": "gray",           # Muted text
+    "success": NANO_COLORS.get("accent_green", "#4caf50"),
+    "danger": NANO_COLORS.get("accent_red", "#e74c3c"),
+    "warning": NANO_COLORS.get("accent_orange", "#e67e22"),
+    "neutral": NANO_COLORS.get("neutral", "#34495e"),
+    "primary": NANO_COLORS.get("primary", "#3498db"),
+    "muted": NANO_COLORS.get("text_muted", "gray"),
+    "link": NANO_COLORS.get("text_link", "#00CED1"),
 }
 
 
